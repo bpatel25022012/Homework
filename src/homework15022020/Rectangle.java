@@ -6,27 +6,27 @@ public class Rectangle {
 // declaration of main method
     public static void main(String[] args) {
         // declaration of variable
-    double Widht;
-    double Height;
-    double Area;
-    double Perimeter;
+    double widht;
+    double height;
+    double area;
+    double perimeter;
     // creation of scanner
         Scanner scan = new Scanner (System.in);
 
         // calling variable through scanner
         System.out.println("Please Enter the Widht : ");
-        Widht = scan.nextDouble();
+        widht = scan.nextDouble();
 
         System.out.println("Please Enter the Height : ");
-        Height = scan.nextDouble();
+        height = scan.nextDouble();
 
         // creating of formula
-        Area = Widht*Height;
-        Perimeter = 2 * (Widht + Height);
+        area = widht*height;
+        perimeter = 2 * (widht + height);
 
         // printing statement
-        System.out.println("The Area of Rectangle is = "+ Area);
-        System.out.println(" The Perimeter of Rectangle is = "+ Perimeter);
+        System.out.println("The Area of Rectangle is = "+ area);
+        System.out.println(" The Perimeter of Rectangle is = "+ perimeter);
 
 
 

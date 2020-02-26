@@ -1,32 +1,43 @@
 package homework08022020;
 
+
+import java.util.Scanner;
+
 public class PracticeHomeowrk {
+    int a;
+    double b;
+    String c;
+
+    double f;
+
+    public void tiger() {
+
+        Scanner scan = new Scanner(System.in);
+
+
+        System.out.println("Please Enter Your Name : ");
+        c = scan.next();
+
+        System.out.println("Please Enter Your Age : ");
+        a = scan.nextInt();
+
+        System.out.println("Please Enter Your Income :");
+        b = scan.nextDouble();
+
+
+        f = a*b;
+        System.out.println("Your Total Income for the life is :" +(f));
+    }
+
     public static void main(String [] args){
-        System.out.println("1");
-        System.out.println("1 2");
-        System.out.println("1 2 3");
-        System.out.println("1 2 3 4");
-        System.out.println("1 2 3 4 5");
-        System.out.println("1 2 3 4 5 6");
-        System.out.println("1 2 3 4 5 6 7");
+
+        PracticeHomeowrk obj2 = new PracticeHomeowrk();
+        obj2.tiger();
 
 
 
 
 
-        System.out.println("1");
-        System.out.println("1 2");
-        System.out.println("1 2 3");
-        System.out.println("1 2 3 4");
-        System.out.println("1 2 3 4 5");
-        System.out.println("1 2 3 4 5 6");
-        System.out.println("1 2 3 4 5 6 7");
-        System.out.println("1 2 3 4 5 6");
-        System.out.println("1 2 3 4 5");
-        System.out.println("1 2 3 4");
-        System.out.println("1 2 3");
-        System.out.println("1 2");
-        System.out.println("1");
 
     }
 }
