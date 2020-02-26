@@ -19,11 +19,11 @@ public class SalarySlip5 {
 
     // declaration of variable
 
-    int basicsalary;
-    int hra;
-    int ta;
-    int da;
-    int pf;
+    double basicsalary;
+    double hra;
+    double ta;
+    double da;
+    double pf;
 
     // declaration of scanner and print statement
         Scanner scan = new Scanner(System.in);
@@ -35,7 +35,7 @@ public class SalarySlip5 {
         String eName = scan.next();
 
         System.out.println("Please Enter Basic Salary : ");
-        basicsalary = scan.nextInt();
+        basicsalary = scan.nextDouble();
 
         // declaration of variable with input of basic salary varible
         hra = (basicsalary*10)/100;
@@ -53,11 +53,11 @@ public class SalarySlip5 {
         System.out.println("| Employee Id         :  "+eId+"          |  ");
         System.out.println("| Employee Name       :  "+eName+"     |  ");
         System.out.println("|____________________________________|  ");
-        System.out.println("| Basic Salary        :  "+basicsalary+"        | ");
-        System.out.println("| HRA 10%             :  "+hra+"         | ");
-        System.out.println("| TA 8%               :  "+ta+"         | ");
-        System.out.println("| DA 9%               :  "+da+"         |"     );
-        System.out.println("| PF 20%              :  "+pf+"         |");
+        System.out.println("| Basic Salary        :  "+basicsalary+"      | ");
+        System.out.println("| HRA 10%             :  "+hra+"       | ");
+        System.out.println("| TA 8%               :  "+ta+"       | ");
+        System.out.println("| DA 9%               :  "+da+"       |"     );
+        System.out.println("| PF 20%              :  "+pf+"       |");
         System.out.println("|____________________________________|");
         System.out.println("| Gross Salary        : " +grosssalary+"       |" );
         System.out.println("|====================================|");

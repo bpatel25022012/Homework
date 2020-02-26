@@ -5,7 +5,7 @@ public class Person {
 
     public static void main(String[] args) {
 
-        Person person = new Person();
+        Person person = new Person(); // object creation
 
         person.setFirstName(""); // firstName is set to empty string
         person.setLastName(""); // lastName is set to empty string
@@ -65,7 +65,7 @@ public class Person {
 
     public String getFullName() {
 
-        // if statement for last name and firstname
+        // if statement for empty last name and firstname
 
         if (lastName.isEmpty()) {
             this.lastName = firstName;

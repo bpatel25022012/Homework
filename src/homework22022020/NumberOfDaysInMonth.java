@@ -22,19 +22,17 @@ public class NumberOfDaysInMonth {
 
         if (year >= 1 && year <= 9999) {       // condition for valid year
 
-            switch (year % 4) {                 // then switch operates.
-                case 0:                         // case for leap year
-                    if (year % 100 == 0) {          // condition for leap year
-                        if (year % 400 == 0) {
-                            System.out.println(year + " is a Leap year ," + true); // true leap year statement
-                        } else
-                            System.out.println(year + " is not a Leap year, " + false);// false statement
+            // then switch operates.
+            if (year % 4 == 0) {                         // case for leap year
+                if (year % 100 == 0) {          // condition for leap year
+                    if (year % 400 == 0) {
+                        System.out.println(year + " is a Leap year ," + true); // true leap year statement
                     } else
-                        System.out.println(year + " is a Leap year, " + true);   // true statement
-                    break;
-                default:
-                    System.out.println(year + " is not a leap year, " + false);  // default statement always false.
-                    break;
+                        System.out.println(year + " is not a Leap year, " + false);// false statement
+                } else
+                    System.out.println(year + " is a Leap year, " + true);   // true statement
+            } else {
+                System.out.println(year + " is not a leap year, " + false);  // default statement always false.
             }
         } else
             System.out.println(false + ", Invalid input");    // print statement for invalid yer input
