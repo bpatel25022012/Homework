@@ -36,6 +36,7 @@ public class SalarySlip5 {
 
         System.out.println("Please Enter Basic Salary : ");
         basicsalary = scan.nextDouble();
+        scan.close();
 
         // declaration of variable with input of basic salary varible
         hra = (basicsalary*10)/100;

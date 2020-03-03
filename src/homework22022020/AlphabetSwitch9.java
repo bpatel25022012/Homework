@@ -55,6 +55,7 @@ public class AlphabetSwitch9 {
             default:
 
                 System.out.println("Alphabet is not valid");
+                scan.close();
         }
     }
 }

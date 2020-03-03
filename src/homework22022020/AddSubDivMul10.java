@@ -44,7 +44,7 @@ public class AddSubDivMul10 {
 
         System.out.println("Please Enter the method you want to use");
         ch = scan.next().charAt(0);
-
+        scan.close();
         //  declaration of add , sub , multi and div method
         add = x + y;
         sub = x - y;

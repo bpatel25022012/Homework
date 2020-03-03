@@ -24,7 +24,7 @@ public class PatternOfJava {
 
         String V;
         V = v.toUpperCase();
-
+        scan.close();
         //creating object for string
 
         PatternOfJava obj = new PatternOfJava();

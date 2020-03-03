@@ -23,7 +23,7 @@ public class CornerStore {
         System.out.println("Enter the Gallons : ");
         double gallon = scan.nextDouble();
        double price = 2.089;
-
+        scan.close();
        double fueltotal = (gallon * price);
 
         System.out.println("+---------------------------------+");

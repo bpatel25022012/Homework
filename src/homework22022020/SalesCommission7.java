@@ -49,6 +49,7 @@ Sales amount >= 50,000 35% Sales amount >= 30,000 20% >= 20,000 10% >= 10,000 5%
         } else if (a>0 && a<9999) {         // for sales under 10000, comm 2%
             System.out.println("Sales Commission : 2%"); // print 2%
             System.out.println("Commission Amount :" +(a*2/100));
+            scan.close();
         }
         }
     }

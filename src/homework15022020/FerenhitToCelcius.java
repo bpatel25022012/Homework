@@ -13,7 +13,7 @@ public class FerenhitToCelcius {
         System.out.println("Enter Temperature in Ferenhit"); // printing statment for ferenhit
 
         Temprature = scan.nextInt(); // using scanner calling temprature
-
+        scan.close();
        Temprature = ((Temprature - 32 )* 5/9); // using formula for temprature
 
         System.out.println("Temprature in Celcius :" + Temprature); // calling statement for celcius

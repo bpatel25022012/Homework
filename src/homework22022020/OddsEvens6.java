@@ -33,6 +33,7 @@ public class OddsEvens6 {
             System.out.println(+a + " " + "is an Even Number.");
         } else {
             System.out.println(+a + " " + " is an Odd Number.");
+            scan.close();
         }
 
     }

@@ -26,7 +26,7 @@ public class LowerCaseString {
 
         // print statement
         System.out.println("The Lower case of the String is : " + b);
-
+        scan.close();
     }
 }
 

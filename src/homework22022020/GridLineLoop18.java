@@ -28,6 +28,7 @@ public class GridLineLoop18 {
             System.out.println(b + b + b + b + b + b + b + b + b + b);
             i++;
         } while (i < 10);
+        scan.close();
     }
 }
 

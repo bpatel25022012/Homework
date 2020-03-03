@@ -21,7 +21,7 @@ public class Area {
 
         System.out.println("Area Of Circle:" + Area); // printing statement for area
 
-
+        scan.close();
     }
 
 

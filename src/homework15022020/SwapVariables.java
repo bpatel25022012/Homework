@@ -20,7 +20,7 @@ public class SwapVariables {
         // calling variable through scanner
         System.out.println("Enter the Second Variable");
         b= scan.nextDouble();
-
+        scan.close();
         // formula statement for variables
         c = a;
         a = b;

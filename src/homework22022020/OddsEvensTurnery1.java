@@ -40,6 +40,7 @@ public class OddsEvensTurnery1 {
 
         // print statement
         System.out.println(+a + " " + "is" + " " + b);
+        scan.close();
     }
 
 }

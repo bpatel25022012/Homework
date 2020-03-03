@@ -24,6 +24,6 @@ public class AverageNumber {
         avg = (a+b+c)/3; // using avg formula
 
         System.out.println(" The average of above 3 Numbers is = " + avg); // printing statement for average
-
+                scan.close();
     }
 }

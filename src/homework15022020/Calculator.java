@@ -19,7 +19,7 @@ public class Calculator {
         System.out.println("Enter the value of second number");// print statement for second number
         b = scan.nextInt();
 
-
+            scan.close();
         Calculator cal = new Calculator();// object creating instance variable
         cal.addition(a, b);
         substration(a, b);

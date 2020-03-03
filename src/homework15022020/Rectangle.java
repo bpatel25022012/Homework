@@ -19,7 +19,7 @@ public class Rectangle {
 
         System.out.println("Please Enter the Height : ");
         height = scan.nextDouble();
-
+        scan.close();
         // creating of formula
         area = widht*height;
         perimeter = 2 * (widht + height);

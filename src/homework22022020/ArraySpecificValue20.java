@@ -46,6 +46,7 @@ public class ArraySpecificValue20 {
             if (a[i] == x) {
                 System.out.println("Elements found at position :" + (i + 1));
             }
+            scan.close();
 
         }
 

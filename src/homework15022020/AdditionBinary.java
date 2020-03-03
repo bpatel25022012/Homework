@@ -32,6 +32,6 @@ public class AdditionBinary {
         // printing statement for addition of two binary numbers
         System.out.println("Sum of Two Binary Numbers : " +Integer.toBinaryString(c1));
 
-
+                scan.close();
     }
 }

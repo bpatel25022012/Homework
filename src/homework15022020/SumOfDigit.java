@@ -24,7 +24,7 @@ public class SumOfDigit {
         rem = num % 10;
         sum = sum + rem;
         num = num / 10;
-
+        scan.close();
     }
         System.out.println("Sum of Digits is : " +sum);
 

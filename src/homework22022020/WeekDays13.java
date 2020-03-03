@@ -27,6 +27,7 @@ public class WeekDays13 {
         Scanner scan = new Scanner(System.in);
         System.out.println("Please Enter Number of the Day : ");
         int day = scan.nextInt();
+        scan.close();
 
         // switch statment
 

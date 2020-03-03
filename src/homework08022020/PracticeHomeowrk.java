@@ -23,7 +23,7 @@ public class PracticeHomeowrk {
 
         System.out.println("Please Enter Your Income :");
         b = scan.nextDouble();
-
+        scan.close();
 
         f = a*b;
         System.out.println("Your Total Income for the life is :" +(f));
@@ -33,7 +33,6 @@ public class PracticeHomeowrk {
 
         PracticeHomeowrk obj2 = new PracticeHomeowrk();
         obj2.tiger();
-
 
 
 

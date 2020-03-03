@@ -23,7 +23,7 @@ public class Expression {
         c = scan.nextDouble();
         System.out.println("Enter Any Specified Expression : ");
         d = scan.nextDouble();
-
+            scan.close();
         // creation of formula
 
         e = (((a*b)-(b*b))/(c - d));

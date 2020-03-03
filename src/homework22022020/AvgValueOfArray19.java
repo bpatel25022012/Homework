@@ -35,6 +35,7 @@ public class AvgValueOfArray19 {
         int avg = total / a.length;
 
         System.out.println("The average of Array Element is " + avg);
+        scan.close();
     }
 
 }

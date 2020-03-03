@@ -22,7 +22,7 @@ public class UpperLowerCase {
         System.out.println("Enter The Character in uppercase : ");
 
         a = scan.nextLine();
-
+        scan.close();
         // creation of formula
         b = a.toLowerCase();
 

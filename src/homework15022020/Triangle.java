@@ -20,7 +20,7 @@ public class Triangle {
         base = scan.nextInt();
         System.out.println("Enter the value of height: ");
         height = scan.nextInt();
-
+        scan.close();
         // formula creation
         area = (base*height)/2;
         System.out.println("Area of Triangle is: " + area);

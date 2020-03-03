@@ -18,7 +18,7 @@ public class NumbersTable {
             for (int t = 1; t <=10; t++) {// for loop for int t
 
             System.out.println(number + " X " + t + " = " + number * t);
-
+                scan.close();
 
         }
     }

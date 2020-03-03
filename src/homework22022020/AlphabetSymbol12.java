@@ -24,7 +24,7 @@ public class AlphabetSymbol12 {
 
         } else {
             System.out.println(ch + " is a Symbol");
-
+            scan.close();
         }
 
 

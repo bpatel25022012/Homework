@@ -39,5 +39,6 @@ public class AlphabetAtoF8 {
 
         } else
             System.out.println("Alphabet is not valid");
+        scan.close();
     }
 }

@@ -80,5 +80,7 @@ public class NumberOfDaysInMonth {
         } else System.out.println("-1, Invalid request");           // default for invalid year input
 
         System.out.println("Number of days in the month = " + numDays); // print no. of days in month
+        scan.close();
     }
+
 }

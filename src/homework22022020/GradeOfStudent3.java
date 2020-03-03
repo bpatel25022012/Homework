@@ -32,7 +32,7 @@ public class GradeOfStudent3 {
         String grade = " ";
         String result;
 
-        // printing statements of maraks variable with if condition
+        // printing statements of marks variable with if condition
 
         System.out.println("Enter Marks for Maths :");
         maths = scan.nextInt();
@@ -77,8 +77,7 @@ public class GradeOfStudent3 {
             result = "Fail";
         }
 
-        // printing statement for markshit
-
+        // printing statement for mark sheet
         System.out.println("You are " + result);
         System.out.println("____________________________________");
         System.out.println("|                                  |");
